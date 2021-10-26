@@ -8,3 +8,11 @@ button {
   padding: 7px;
   font-size: 2rem;
 }
+
+.showing {
+  visibility: visible;
+}
+
+.hidding {
+  visibility: hidden;
+}
