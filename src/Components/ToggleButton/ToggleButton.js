@@ -17,7 +17,10 @@ export default function ToggleButton() {
       <p style={visibility}>
         Leprosy will take control and bring you to your death
       </p>
-      <button onClick={showHide}> {text}</button>
+      <button onClick={showHide}>
+        {" "}
+        {text === "visible" ? "Hide" : "Show"}
+      </button>
     </>
   );
 }
